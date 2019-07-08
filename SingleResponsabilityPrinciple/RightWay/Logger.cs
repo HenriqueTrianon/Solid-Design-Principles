@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using SingleResponsabilityPrinciple.Interfaces;
+using SRP.Interfaces;
 
-namespace SingleResponsabilityPrinciple.RightWay
+namespace SRP.RightWay
 {
     public class Logger:ILogger
     {

@@ -1,7 +1,7 @@
-﻿using OpenClosedPrinciple.Enums;
-using OpenClosedPrinciple.RightWay.Interfaces;
+﻿using OCP.Enums;
+using OCP.RightWay.Interfaces;
 
-namespace OpenClosedPrinciple.RightWay
+namespace OCP.RightWay
 {
     public class DeveloperStatusSpecification : ISpecification<DeveloperReport>
     {

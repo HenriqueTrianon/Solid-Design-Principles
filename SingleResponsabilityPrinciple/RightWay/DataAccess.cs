@@ -1,7 +1,7 @@
 ﻿using System;
-using SingleResponsabilityPrinciple.Interfaces;
+using SRP.Interfaces;
 
-namespace SingleResponsabilityPrinciple.RightWay
+namespace SRP.RightWay
 {
     public class DataAccess : IDataAccess
     {

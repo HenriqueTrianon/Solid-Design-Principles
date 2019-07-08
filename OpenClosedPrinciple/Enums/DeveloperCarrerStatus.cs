@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrinciple.Enums
+﻿namespace OCP.Enums
 {
     public enum DeveloperCarrerStatus
     {

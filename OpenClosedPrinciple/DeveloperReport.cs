@@ -1,6 +1,6 @@
-﻿using OpenClosedPrinciple.Enums;
+﻿using OCP.Enums;
 
-namespace OpenClosedPrinciple
+namespace OCP
 {
     public class DeveloperReport
     {

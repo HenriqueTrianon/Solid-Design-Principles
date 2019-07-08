@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using OpenClosedPrinciple.Enums;
-using OpenClosedPrinciple.RightWay.Interfaces;
+﻿using System.Linq;
+using OCP.Enums;
+using OCP.RightWay.Interfaces;
 
-namespace OpenClosedPrinciple.RightWay
+namespace OCP.RightWay
 {
     public class DeveloperTechStackSpecification:ISpecification<DeveloperReport>
     {
         public Tech[] TechStack { get; }
-        public DeveloperTechStackSpecification(Tech[] techStack)
+        public DeveloperTechStackSpecification(params Tech[] techStack)
         {
             TechStack = techStack;
         }

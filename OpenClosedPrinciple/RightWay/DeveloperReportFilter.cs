@@ -1,12 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using OpenClosedPrinciple.RightWay.Interfaces;
+using OCP.RightWay.Interfaces;
 
-namespace OpenClosedPrinciple.RightWay
+namespace OCP.RightWay
 {
     public class DeveloperReportFilter : IFilter<DeveloperReport>
     {
-        public List<DeveloperReport> Filter(IEnumerable<DeveloperReport> monitors, ISpecification<DeveloperReport> specification) =>
-            monitors.Where(m => specification.IsSatisfied(m)).ToList();
+        public IEnumerable<DeveloperReport> Filter(IEnumerable<DeveloperReport> developers, ISpecification<DeveloperReport> specification) =>
+            developers.Where(m => specification.IsSatisfied(m));
     }
 }

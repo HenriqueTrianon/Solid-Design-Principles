@@ -1,4 +1,4 @@
-﻿namespace SingleResponsabilityPrinciple.Interfaces
+﻿namespace SRP.Interfaces
 {
     interface IDataAccess
     {

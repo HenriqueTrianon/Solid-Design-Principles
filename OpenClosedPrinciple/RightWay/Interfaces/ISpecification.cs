@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrinciple.RightWay.Interfaces
+﻿namespace OCP.RightWay.Interfaces
 {
     public interface ISpecification<T>
     {
