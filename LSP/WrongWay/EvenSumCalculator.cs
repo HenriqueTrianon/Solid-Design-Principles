@@ -7,7 +7,7 @@ namespace LSP.WrongWay
 {
     public class EvenSumCalculator:SumCalculator
     {
-        public EvenSumCalculator(int[] numbers):base(numbers)
+        public EvenSumCalculator(IEnumerable<int> numbers):base(numbers)
         {
             
         }

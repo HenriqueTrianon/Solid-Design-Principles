@@ -15,42 +15,36 @@ namespace SolidTests
         {
             Output = output;
         }
-        public IEnumerable<DeveloperReport> Developers
+        public IEnumerable<DeveloperReport> Developers => new List<DeveloperReport>
         {
-            get
-            {
-                return new List<DeveloperReport>
+                new DeveloperReport()
                 {
-                    new DeveloperReport()
-                    {
                         CarrerStatus = DeveloperCarrerStatus.Junior,
                         HourlyRate = 20,
                         Id = 1,
                         Name = "Mock Man",
                         TechStack = new Tech[] {Tech.CSharp},
                         WorkingHours = 8
-                    },
-                    new DeveloperReport()
-                    {
+                },
+                new DeveloperReport()
+                {
                         CarrerStatus = DeveloperCarrerStatus.Mid,
                         HourlyRate = 30,
                         Id = 2,
                         Name = "Henrique Trianon de Moraes Souza",
                         TechStack = new Tech[] {Tech.CSharp, Tech.Javascript},
                         WorkingHours = 8
-                    },
-                    new DeveloperReport()
-                    {
+                },
+                new DeveloperReport()
+                {
                         CarrerStatus = DeveloperCarrerStatus.Architect,
                         HourlyRate = 80,
                         Id = 3,
                         Name = "The Ultra Master Dev",
                         TechStack = new Tech[] {Tech.CSharp, Tech.Javascript, Tech.Delphi, Tech.JAVA},
                         WorkingHours = 8
-                    }
-                };
-            }
-        }
+                }
+        };
 
         [Fact]
         public void OcpWrongWayTest()

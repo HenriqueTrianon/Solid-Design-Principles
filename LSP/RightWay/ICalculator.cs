@@ -4,7 +4,7 @@ using System.Text;
 
 namespace LSP.RightWay
 {
-    interface ICalculator
+    public interface ICalculator
     {
         IEnumerable<int> Numbers { get; }
         int calculate();

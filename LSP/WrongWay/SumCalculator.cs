@@ -7,9 +7,9 @@ namespace LSP.WrongWay
 {
     public class SumCalculator
     {
-        protected int[] Numbers { get; }
+        protected IEnumerable<int> Numbers { get; }
 
-        public SumCalculator(int[] numbers)
+        public SumCalculator(IEnumerable<int> numbers)
         {
             Numbers = numbers;
         }
