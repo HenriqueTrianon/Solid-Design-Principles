@@ -1,7 +1,7 @@
 ﻿
 namespace ISP.RightWay
 {
-    interface IFlightableVehicle
+    public interface IFlightableVehicle
     {
         void Fly();
     }

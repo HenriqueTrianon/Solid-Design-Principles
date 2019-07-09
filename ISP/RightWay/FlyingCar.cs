@@ -2,7 +2,7 @@
 
 namespace ISP.RightWay
 {
-    public class FlyingCar:IFlightableVehicle,ITerrainableVehicle
+    public class FlyingCar:IVersatileVehicle
     {
         public void Fly()
         {

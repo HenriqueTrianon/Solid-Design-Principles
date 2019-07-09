@@ -1,6 +1,6 @@
 ﻿namespace ISP.RightWay
 {
-    interface ITerrainableVehicle
+    public interface ITerrainableVehicle
     {
         void Drive();
     }
