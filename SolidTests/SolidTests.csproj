@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LSP\LSP.csproj" />
     <ProjectReference Include="..\OpenClosedPrinciple\OCP.csproj" />
     <ProjectReference Include="..\SingleResponsabilityPrinciple\SRP.csproj" />
   </ItemGroup>
