@@ -4,10 +4,10 @@ using Xunit.Abstractions;
 
 namespace SolidTests
 {
-    public class LCPTest
+    public class LSPTest
     {
         private ITestOutputHelper Output { get; set; }
-        public LCPTest(ITestOutputHelper output)
+        public LSPTest(ITestOutputHelper output)
         {
             Output = output;
         }

@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LSP\LSP.csproj" />
-    <ProjectReference Include="..\OpenClosedPrinciple\OCP.csproj" />
-    <ProjectReference Include="..\SingleResponsabilityPrinciple\SRP.csproj" />
+    <ProjectReference Include="..\OCP\OCP.csproj" />
+    <ProjectReference Include="..\SRP\SRP.csproj" />
   </ItemGroup>
 
 </Project>
