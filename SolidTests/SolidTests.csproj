@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DIP\DIP.csproj" />
     <ProjectReference Include="..\ISP\ISP.csproj" />
     <ProjectReference Include="..\LSP\LSP.csproj" />
     <ProjectReference Include="..\OCP\OCP.csproj" />

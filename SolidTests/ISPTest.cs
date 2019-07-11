@@ -1,7 +1,6 @@
 ﻿using System;
 using ISP.RightWay;
 using Xunit;
-using Xunit.Sdk;
 
 namespace SolidTests
 {
